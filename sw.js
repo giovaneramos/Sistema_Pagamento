@@ -1,20 +1,12 @@
-const CACHE_NAME = 'eventpay-cache-v2';
+const CACHE_NAME = 'eventpay-cache-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './css/style.css',
-  './css/simulator.css',
-  './js/utils.js',
-  './js/app.js',
-  './js/simulator.js',
-  './data/mock-data.js',
-  './services/storage.js',
-  './services/sync-engine.js',
-  './services/domain.js',
-  './components/views.js',
+  './assets/icon.svg',
   './simulador-smartpos.html',
-  './assets/icon.svg'
+  './css/simulator.css',
+  './js/simulator.js'
 ];
 
 self.addEventListener('install', (event) => {
