@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050814" />
+  <title>EVENTPAY | Simulador SmartPOS</title>
+  <link rel="stylesheet" href="./css/simulator.css" />
+</head>
+<body>
+  <main class="simulator-shell">
+    <section class="simulator-header">
+      <div>
+        <div class="eyebrow">EVENTPAY • SmartPOS 5.5</div>
+        <h1>Simulador de maquininha</h1>
+        <p>Terminal Android em tamanho grande, com foco em toque, leitura rápida e operação em evento.</p>
+      </div>
+      <div class="toolbar">
+        <button class="toolbar-btn active" data-screen="caixa-recarga">Recarga</button>
+        <button class="toolbar-btn" data-screen="pdv">Venda na barraca</button>
+        <a class="toolbar-link" href="./index.html">Abrir sistema completo</a>
+      </div>
+    </section>
+
+    <section class="device-area">
+      <div class="device-frame">
+        <div class="device-notch"></div>
+        <div class="device-screen">
+          <iframe id="screenFrame" title="Simulador SmartPOS"></iframe>
+        </div>
+        <div class="device-home"></div>
+      </div>
+    </section>
+
+    <aside class="simulator-side">
+      <div class="side-card">
+        <h2>Objetivo</h2>
+        <ul>
+          <li>Dar sensação de terminal físico, sem cara de dashboard web.</li>
+          <li>Dar mais espaço visual aos botões e ao saldo do cliente.</li>
+          <li>Separar claramente a recarga da venda na barraca.</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h2>Leitura ideal</h2>
+        <ol>
+          <li>Cliente no topo.</li>
+          <li>Ação principal no centro.</li>
+          <li>Confirmação sempre visível no rodapé.</li>
+        </ol>
+      </div>
+    </aside>
+  </main>
+
+  <script src="./js/simulator.js"></script>
+</body>
+</html>
