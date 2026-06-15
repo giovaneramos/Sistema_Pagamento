@@ -1,0 +1,17 @@
+{
+  "name": "EVENTPAY",
+  "short_name": "EVENTPAY",
+  "description": "Plataforma cashless offline-first para eventos.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
